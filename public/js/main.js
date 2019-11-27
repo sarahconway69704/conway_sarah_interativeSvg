@@ -16,7 +16,7 @@
         popOver.querySelector(".four-stars").textContent = `4 Stars: ${makeup_stats.fourstars}`;
         popOver.querySelector(".three-stars").textContent = `3 Stars: ${makeup_stats.threestars}`;
         popOver.querySelector(".two-stars").textContent = `2 Stars: ${makeup_stats.twostars}`;
-        popOver.querySelector(".one-star").textContent = `1 Stars: ${makeup_stats.onestar}`;
+        popOver.querySelector(".one-star").textContent = `1 Star: ${makeup_stats.onestar}`;
         popOver.querySelector(".retail-price").textContent = `Retail Price: ${makeup_stats.retailprice}`;
         popOver.querySelector(".avg-rating").textContent = `Avg. Rating: ${makeup_stats.avgrating}`;
         popOver.querySelector(".image-palette").src = `images/${makeup_stats.imagepalette}`;
@@ -25,6 +25,7 @@
         
       
         popOver.classList.add('show-popover');
+       
         el.appendChild(popOver);
       }
     
@@ -41,6 +42,16 @@
             .catch((err) => console.log(err));
       }
 
-      infoButton.forEach(button => button.addEventListener("click", fetchData));
+
+      //function toggle() {
+       // popOver.classList.add('close');
+       
+     // }
+
   
+
+      infoButton.forEach(button => button.addEventListener("click", fetchData));
+      //popOver.addEventListener("click", toggle);
+
+
 })();
