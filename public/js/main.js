@@ -2,6 +2,8 @@
 
     const infoButton = document.querySelectorAll('.info');
     popOver = document.querySelector('.popover');
+    mattes = document.querySelector('.solids');
+    shimmers = document.querySelector('.sparkle');
 
 
 
@@ -21,9 +23,6 @@
         popOver.querySelector(".avg-rating").textContent = `Avg. Rating: ${makeup_stats.avgrating}`;
         popOver.querySelector(".image-palette").src = `images/${makeup_stats.imagepalette}`;
 
-        
-        
-      
         popOver.classList.add('show-popover');
        
         el.appendChild(popOver);
@@ -43,15 +42,36 @@
       }
 
 
-      //function toggle() {
-       // popOver.classList.add('close');
+      function toggle() {
+       popOver.classList.add('close');
        
-     // }
+     }
+
+ 
+
+function mouseOver() {
+  mattes.classList.add('show-solids');
+}
+
+function mouseOut() {
+  mattes.classList.remove('show-solids');
+}
+
+function mouseOver2() {
+  shimmers.classList.add('show-sparkle');
+}
+
+function mouseOut2() {
+  shimmers.classList.remove('show-sparkle');
+}
 
   
 
       infoButton.forEach(button => button.addEventListener("click", fetchData));
-      //popOver.addEventListener("click", toggle);
-
+      popOver.addEventListener("click", toggle);
+      document.getElementById("mats1").addEventListener("mouseover", mouseOver);
+      document.getElementById("mats1").addEventListener("mouseout", mouseOut);
+      document.getElementById("shim1").addEventListener("mouseover", mouseOver2);
+      document.getElementById("shim1").addEventListener("mouseout", mouseOut2);
 
 })();
