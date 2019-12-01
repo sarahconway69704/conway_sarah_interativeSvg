@@ -15,15 +15,10 @@ body {
   color: white;
   font-size: 14px;
   width: 100%;
-  height: 100%;
 }
 
 .hidden {
   display: none;
-}
-
-.svg-graphic {
-  width: 280px;
 }
 
 #header {
@@ -108,9 +103,7 @@ body {
 
   .popover {
     display: none;
-    background-color: #F7A269;
     z-index: 1;
-    height: 600px;
     color: white;
   }
 
@@ -399,6 +392,50 @@ body {
   }
 
   #shim1:hover {
+    background-color: #F9BD94;
+  }
+
+  #c-name1:hover {
+    background-color: #F9BD94;
+  }
+
+  #p-name1:hover {
+    background-color: #F9BD94;
+  }
+
+  #clrs1:hover {
+    background-color: #F9BD94;
+  }
+
+  #rev1:hover {
+    background-color: #F9BD94;
+  }
+
+  #fivestars1:hover {
+    background-color: #F9BD94;
+  }
+
+  #fourstars1:hover {
+    background-color: #F9BD94;
+  }
+
+  #threestars1:hover {
+    background-color: #F9BD94;
+  }
+
+  #twostars1:hover {
+    background-color: #F9BD94;
+  }
+
+  #onestar1:hover {
+    background-color: #F9BD94;
+  }
+
+  #retailprice1:hover {
+    background-color: #F9BD94;
+  }
+
+  #avgrating1:hover {
     background-color: #F9BD94;
   }
 
@@ -743,6 +780,50 @@ body {
     background-color: #F9BD94;
   }
 
+  #c-name1:hover {
+    background-color: #F9BD94;
+  }
+
+  #p-name1:hover {
+    background-color: #F9BD94;
+  }
+
+  #clrs1:hover {
+    background-color: #F9BD94;
+  }
+
+  #rev1:hover {
+    background-color: #F9BD94;
+  }
+
+  #fivestars1:hover {
+    background-color: #F9BD94;
+  }
+
+  #fourstars1:hover {
+    background-color: #F9BD94;
+  }
+
+  #threestars1:hover {
+    background-color: #F9BD94;
+  }
+
+  #twostars1:hover {
+    background-color: #F9BD94;
+  }
+
+  #onestar1:hover {
+    background-color: #F9BD94;
+  }
+
+  #retailprice1:hover {
+    background-color: #F9BD94;
+  }
+
+  #avgrating1:hover {
+    background-color: #F9BD94;
+  }
+
   .solids {
     display: none;
   }
@@ -1081,6 +1162,50 @@ body {
   }
 
   #shim1:hover {
+    background-color: #F9BD94;
+  }
+
+  #c-name1:hover {
+    background-color: #F9BD94;
+  }
+
+  #p-name1:hover {
+    background-color: #F9BD94;
+  }
+
+  #clrs1:hover {
+    background-color: #F9BD94;
+  }
+
+  #rev1:hover {
+    background-color: #F9BD94;
+  }
+
+  #fivestars1:hover {
+    background-color: #F9BD94;
+  }
+
+  #fourstars1:hover {
+    background-color: #F9BD94;
+  }
+
+  #threestars1:hover {
+    background-color: #F9BD94;
+  }
+
+  #twostars1:hover {
+    background-color: #F9BD94;
+  }
+
+  #onestar1:hover {
+    background-color: #F9BD94;
+  }
+
+  #retailprice1:hover {
+    background-color: #F9BD94;
+  }
+
+  #avgrating1:hover {
     background-color: #F9BD94;
   }
 
